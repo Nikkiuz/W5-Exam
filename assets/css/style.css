@@ -54,7 +54,7 @@ h1{
     margin-bottom: 20px;
 }
 
-h2{
+#hero p{
     font-size: 18px;
     margin-bottom: 20px
 }
@@ -67,4 +67,29 @@ h2{
     color: white;
     text-align: center;
     padding: 10px 45px;
+}
+
+#trending{
+    display: flex;
+    flex-direction: column;
+}
+
+#trendingline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.firstline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.circular-square {
+    border-radius: 50%;
+    width: 20px;
 }
