@@ -161,7 +161,7 @@ hr{
     list-style-type: none;
     flex-wrap: wrap;
     align-items: start;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
 .topicli{
@@ -170,7 +170,9 @@ hr{
     text-align: center;
     font-size: 15px;
     color: #8a8989;
-    margin: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     white-space: nowrap;
 }
 
@@ -191,6 +193,67 @@ hr{
     color: #8a8989;
     margin-right: 15px;
     margin-bottom: 10px;
+}
+
+#morenews{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#morenews p{
+    font-size: 15px;
+    color: #8a8989;
+    margin-left: 15px;
+    
+}
+
+
+.author2 div{
+    display: block;
+}
+
+.author2 p{
+    display: inline-block;
+}
+
+.author2 img{
+    display: inline-block;
+}
+
+.discoverdate{
+    display: flex;
+    flex-direction: row;
+}
+
+.data{
+    font-size: 10px;
+}
+
+.bigpic{
+    width: 180px;
+}
+
+.discovercontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenuto{
+    display: flex;
+    flex-direction: column;
+}
+
+.star{
+    width: 20px;
 }
 
 
