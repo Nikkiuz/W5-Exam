@@ -202,60 +202,106 @@ hr{
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 900;
+}
 
+.summary{
+    font-size: 18px;
+    color: #8a8989;
+    margin-left: 15px;
 }
 
 /* CONTROLLARE DA QUI IN POI */
 
-#morenews p{
+
+.author2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: 20px;
+}
+
+.author2 img {
+    margin-right: 5px;
+}
+
+.Name{
+    margin-left: 0;
     font-size: 15px;
-    color: #8a8989;
-    margin-left: 15px;
-    
-}
-
-
-.author2 div{
-    display: block;
-}
-
-.author2 p{
-    display: inline-block;
-}
-
-.author2 img{
-    display: inline-block;
-}
+    font-weight: 600}
 
 .discoverdate{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 75%;
 }
 
 .data{
-    font-size: 10px;
+    font-size: 14px;
+    color: #8a8989;
+    margin: 2px;
+}
+
+.minuti{
+    font-size: 14px;
+    color: #8a8989;
+    margin: 2px;   
+}
+
+.tag{
+    font-size: 14px;
+    color: #8a8989;
+    border-radius: 40px;
+    background-color: #c7c5c5;
+    padding: 7px;
+    margin: 2px;
 }
 
 .bigpic{
     width: 180px;
+    margin-right: 15px;
+}
+
+.imgbook{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bookdiv{
+    display: flex;
+}
+
+.bookm{
+    justify-self: end;
 }
 
 .discovercontent{
     display: flex;
     flex-direction: row;
-}
+  }
 
 .contenuto{
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
 }
 
 .star{
     width: 20px;
+}
+
+.discovernews{
+    margin-bottom: 30px;
 }
 
 
