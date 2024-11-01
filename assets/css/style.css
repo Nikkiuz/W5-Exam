@@ -28,6 +28,7 @@
 
 .invisible{
     display: none;
+    font-family: "Roboto", sans-serif;
 }
 
 .headbuttons{
@@ -35,6 +36,7 @@
     align-content: center;
     margin: 10px;
     font-size: 13px;
+    font-family: "Roboto", sans-serif;
 }
 
 #mdiv{
@@ -52,11 +54,13 @@ h1{
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
+    font-family: "Spectral", serif;
 }
 
 #hero p{
     font-size: 18px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 #hero button{
@@ -67,6 +71,7 @@ h1{
     color: white;
     text-align: center;
     padding: 10px 45px;
+    font-family: "Roboto", sans-serif;
 }
 
 #trending{
@@ -91,6 +96,7 @@ h1{
     font-weight: 900;
     font-size: 12px;
     margin-left: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 .firstline{
@@ -102,8 +108,10 @@ h1{
 }
 
 .numbers{
-    font-size: 40px;
+    font-size: 30px;
     color: #c7c5c5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 
 .circular-square {
@@ -117,11 +125,13 @@ h1{
     margin-left: 75px;
     font-size: 20px;
     font-weight: 700;
+    font-family: "Roboto", sans-serif;
 }
 
 .author{
     font-size: 15px;
     color: #8a8989;
+    font-family: "Roboto", sans-serif;
 }
 
 .dates{
@@ -131,6 +141,7 @@ h1{
     margin-top: 10px;
     color: #8a8989;
     font-size: 15px;
+    font-family: "Roboto", sans-serif;
     
 }
 
@@ -154,6 +165,7 @@ hr{
     font-size: 12px;
     margin-bottom: 15px;
     margin-top: 40px;
+    font-family: "Roboto", sans-serif;
 }
 
 #topics{
@@ -168,12 +180,13 @@ hr{
     border: 1px solid #8a8989;
     padding: 10px 15px;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     color: #8a8989;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     white-space: nowrap;
+    font-family: "Roboto", sans-serif;
 }
 
 #secondnav{
@@ -189,10 +202,11 @@ hr{
 }
 
 .secondnavelements{
-    font-size: 15px;
+    font-size: 10px;
     color: #8a8989;
     margin-right: 15px;
     margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 #morenews{
@@ -202,17 +216,19 @@ hr{
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 900;
+    font-family: "Roboto", sans-serif;
 }
 
 .summary{
-    font-size: 18px;
+    font-size: 15px;
     color: #8a8989;
     margin-left: 15px;
+    font-family: "Roboto", sans-serif;
 }
 
 /* CONTROLLARE DA QUI IN POI */
@@ -233,8 +249,10 @@ h3 {
 
 .Name{
     margin-left: 0;
-    font-size: 15px;
-    font-weight: 600}
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
 
 .discoverdate{
     display: flex;
@@ -250,12 +268,14 @@ h3 {
     font-size: 14px;
     color: #8a8989;
     margin: 2px;
+    font-family: "Roboto", sans-serif;
 }
 
 .minuti{
     font-size: 14px;
     color: #8a8989;
     margin: 2px;   
+    font-family: "Roboto", sans-serif;
 }
 
 .tag{
@@ -265,6 +285,7 @@ h3 {
     background-color: #c7c5c5;
     padding: 7px;
     margin: 2px;
+    font-family: "Roboto", sans-serif;
 }
 
 .bigpic{
