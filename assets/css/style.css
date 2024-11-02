@@ -9,7 +9,22 @@ main{
     border-bottom: 1px solid black;
     position: fixed;
     width: 100%;
-    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: background-color 0.3s, opacity 0.3s;
+    opacity: 1;
+}
+
+.navbarscroll{
+    background-color: white;
+}
+
+.navbarscroll .getscrolled{
+    background-color: green;
 }
 
 #navheader img{
@@ -21,15 +36,21 @@ main{
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding: 5px;
 }
 
-#getstarted{
+.getst{
     background-color: #181918;
     color: white;
     border-radius: 40px;
     padding: 10px;
     text-align: center;
     margin-right: 15px;
+    font-size: 13px;
+    justify-content: center;
+    align-content: center;
+    font-family: "Roboto", sans-serif;
+    transition: color 0.3s;
 
 }
 
@@ -59,7 +80,8 @@ main{
     border-bottom: 1px solid black;
     padding: 70px 15px;
     display: flex;
-    width: 100%;
+    width: auto;
+    height: 30vh;
 }
 
 h1{
