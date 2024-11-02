@@ -119,6 +119,12 @@ h1{
     
 }
 
+#trending article{
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
 #trendingline{
     display: flex;
     flex-direction: row;
@@ -184,6 +190,7 @@ h1{
 .bold{
     font-weight: 700;
     color: black;
+    margin-bottom: 5px;
 }
 
 hr{
@@ -429,6 +436,10 @@ h3 {
         justify-content: space-around;
         margin: auto;
     }
+    .discovercontent{
+        justify-content: space-between;
+
+    }
    
    }
 
@@ -470,6 +481,11 @@ h3 {
         margin-left: 50px;
     }
 
+    .discovercontent{
+        justify-content: space-between;
+
+    }
+
    }
 
    @media screen and (min-width: 1024px){
@@ -477,6 +493,11 @@ h3 {
         width: 110%;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .discovercontent{
+        justify-content: space-between;
+
     }
 
    }
