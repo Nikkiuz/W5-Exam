@@ -2,7 +2,7 @@ const navbar = document.getElementById("navbar");
 const sectionTwo = document.getElementById("firsthero");
 const button = document.getElementById("getstarted")
 
-// Funzione che rileva la posizione della sezione
+
 function changeNavbarColor() {
     const sectionTop = sectionTwo.getBoundingClientRect().top;
 
