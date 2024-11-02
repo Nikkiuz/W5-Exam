@@ -1,3 +1,7 @@
+main{
+    width: auto;
+}
+
 #navheader{
     display: flex;
     justify-content: space-between;
@@ -339,6 +343,15 @@ h3 {
     margin-bottom: 30px;
 }
 
+.bookdiv{
+    display: flex;
+}
+
+.bookm img{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
 @media screen and (min-width: 768px){
 
     #navheader{
@@ -383,4 +396,44 @@ h3 {
         width: 107%;
     }
    
+   }
+
+   @media screen and (min-width: 1024px){
+    #navheader{
+        width: 100%;
+    }
+
+    #hero{
+        width: 110%;
+        justify-content: right;
+    }
+
+    #trending { 
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        
+    } 
+    
+    #trending article { 
+        flex: 1 1 calc(33.33% - 20px);
+        margin: 10px;
+    }
+
+    #bigsection{
+        display: flex;
+        flex-direction: row-reverse;        
+    }
+
+    #morenews{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    #discover{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
    }
